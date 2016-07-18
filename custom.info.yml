@@ -1,0 +1,7 @@
+## YAML Template.
+---
+name: custom
+type: module
+description: learn d8 from d8cards.net
+core: 8.x
+project: custom

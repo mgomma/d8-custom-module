@@ -1,0 +1,17 @@
+## YAML Template.
+---
+custom.page:
+  path: '/custom/page'
+  defaults:
+    _controller: '\Drupal\custom\Controller\CustomController::page'
+    _title: 'My first page in D8'
+  requirements:
+    _permission: 'access content'
+    
+custom.config:
+  path: '/custom/config_form'
+  defaults:
+    _form: '\Drupal\custom\Form\ConfigForm'
+    _title: 'My first config form in D8'
+  requirements:
+    _permission: 'access content'
